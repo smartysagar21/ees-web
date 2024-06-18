@@ -1,7 +1,15 @@
 import React, { useEffect, useState } from 'react'
 import './App.css'
-import SponsorCrausal from './components/SponerCrausal'
 import { BallTriangle } from 'react-loader-spinner';
+import {
+  HashRouter as Router,
+  Route,
+  Routes,
+} from "react-router-dom";
+
+import Home from './pages/Home';
+import About from './pages/About US/About';
+import SponsorCrausal from './pages/sponser/SponerCrausal';
 
 function App() {
   const [loading, setloading] = useState(true);
@@ -31,9 +39,14 @@ function App() {
         }
         {
           !loading && (
-            <div className='transition'>
-              <SponsorCrausal/>
-            </div>
+            <Router>
+              {/* <Media/> */}
+              <Routes>
+                <Route path="/" element={<Home />} />
+                <Route path="/about" element={<About />} />
+                <Route path="/sponser" element={<SponsorCrausal />} />
+              </Routes>
+            </Router>
           )
         }
       </div>
