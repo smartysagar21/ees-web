@@ -24,16 +24,16 @@ export default function Navbar() {
   //color on which page is routing
   let { pathname } = useLocation()
   let subpage = pathname.split('/')?.[1]
-  // console.log(subpage)
+  console.log(subpage)
 
   function Linkness(type = null) {
     if (subpage === '') {
       subpage = 'home'
     }
-    let classes = 'text-sm font-medium  hover:text-orange-600 '
+    let classes = 'text-sm font-medium hover:text-orange-600 '
 
     if (type === subpage) {
-      classes += 'text-orange-600 rounded-3xl p-2'
+      classes += 'border border-orange-600 rounded-3xl p-2'
     }
     else {
       classes += ' '
@@ -69,55 +69,43 @@ export default function Navbar() {
       <nav className='flex w-full md:justify-center justify-between items-center screen-max-width'>
 
         {/* destop view */}
-        <div>
-          <img src='/eeslogo.png' alt="Apple" className='w-20' />
+        <div className={``}>
+          <Link to='/'>
+            <img src={`${subpage === '' && hidden == !true ? '/eeslogo2.png' : '/eeslogo.png'}`} alt="Apple" className={`w-20`} />
+          </Link>
         </div>
         <div className='md:flex text-lg flex-1 justify-center items-center space-x-8 hidden'>
-          <Link to={'/'} className={Linkness('home')}>
-            <p className='lg:text-lg text-base'>Home</p>
-          </Link>
           <Link to={'/about'} className={Linkness('about')}>
-            <p className='lg:text-lg text-base'>About Us </p>
+            <p className={`lg:text-lg text-base ${subpage === 'home' && hidden == !true ? 'text-white' : 'text-black'}`}>About Us </p>
           </Link>
           <Link to={'/event'} className={Linkness('event')}>
-            <p className='lg:text-lg text-base'>Events </p>
+            <p className={`lg:text-lg text-base ${subpage === 'home' && hidden == !true ? 'text-white' : 'text-black'}`}>Events </p>
           </Link>
 
           <Link to={'/sponser'} className={Linkness('sponser')}>
-            <p className='lg:text-lg text-base'>Sponser US </p>
+            <p className={`lg:text-lg text-base ${subpage === 'home' && hidden == !true ? 'text-white' : 'text-black'}`}>Sponser US </p>
           </Link>
 
           <Link to={'/gallery'} className={Linkness('gallery')}>
-            <p className='lg:text-lg text-base'>Gallery </p>
+            <p className={`lg:text-lg text-base ${subpage === 'home' && hidden == !true ? 'text-white' : 'text-black'}`}>Gallery </p>
           </Link>
 
           <Link to={'/contact'} className={Linkness('contact')}>
-            <p className='lg:text-lg text-base'>Contact Us </p>
+            <p className={`lg:text-lg text-base ${subpage === 'home' && hidden == !true ? 'text-white' : 'text-black'}`}>Contact Us </p>
           </Link>
         </div>
         <div className='md:flex lg:text-xl text-base hidden items-baseline gap-7 max-sm:justify-end max-sm:flex-1'>
-          <a href="">
-            <BsFacebook />
-          </a>
-          <a href="">
-            <BsInstagram />
-          </a>
-          <a href="">
-            <BsLinkedin />
-          </a>
+          <button className={`px-2 py-1 text-base border-2 rounded-full border-orange-600 ${subpage === 'home' && hidden == !true ? 'text-white' : 'text-black'}`} >Sponser Us</button>
         </div>
 
         {/* mobile view */}
         <div onClick={toggleCart} className='cursor-pointer md:hidden font-semibold md:absolute md:right-0 md:mx-8 mt-2 md:mt-0'>
-          <button><FiMenu size={30} /></button>
+          <button className={`${subpage === 'home' && hidden == !true ? 'text-white' : 'text-black'}`}><FiMenu size={30} /></button>
         </div>
         <div ref={ref} className="w-full md:hidden h-[100vh] sideCart bg-white absolute top-0 right-0 py-10 transition-transform transform translate-x-full ">
           <span onClick={toggleCart} className="absolute top-8 right-4 cursor-pointer"><RxCross2 size={30} /></span>
           <div className='flex flex-col border-t-2 py-5 justify-center items-center mt-12 gap-10'>
             <div className='flex flex-col text-lg items-center justify-center gap-y-6'>
-              <Link to={'/'} className={Linkness('home')}>
-                <p className='lg:text-lg text-base'>Home</p>
-              </Link>
               <Link to={'/about'} className={Linkness('about')}>
                 <p className='lg:text-lg text-base'>About Us </p>
               </Link>
@@ -138,15 +126,7 @@ export default function Navbar() {
               </Link>
             </div>
             <div className='flex lg:text-xl text-xl md:text-base items-baseline gap-7 max-sm:justify-end max-sm:flex-1'>
-              <a href="">
-                <BsFacebook />
-              </a>
-              <a href="">
-                <BsInstagram />
-              </a>
-              <a href="">
-                <BsLinkedin />
-              </a>
+              <button>Sponser</button>
             </div>
           </div>
         </div>
