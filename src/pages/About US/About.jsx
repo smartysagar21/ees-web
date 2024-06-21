@@ -21,7 +21,7 @@ const About = () => {
     return (
         <>
             <Layout>
-                <div className='bg-slate-100 flex flex-col justify-center items-center h-full w-full pt-10 md:pt-20' style={{
+                <div className='bg-slate-100 flex flex-col justify-center items-center h-full w-full pt-28' style={{
                     // background: 'linear-gradient(to bottom, rgba(2, 2, 2, 0.633), rgba(2, 2, 2, 0.633))'
                 }}>
                     <h2 className='md:text-5xl text-3xl text-black font-semibold'>About Us</h2>
