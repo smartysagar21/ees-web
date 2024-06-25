@@ -21,7 +21,7 @@ const variants = {
 const HeroSection = () => {
   return (
     <div className="slide-container">
-      <div className='h-[100vh] sm:h-[120vh] -mt-16' style={{
+      <div className='h-[80vh] sm:h-[110vh] -mt-16' style={{
         backgroundImage: "url(" + "/nitjsr.png" + ")",
         display: 'flex',
         alignItems: 'center',
