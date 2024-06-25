@@ -62,9 +62,9 @@ const Event = () => {
             ))}
         </div>
     </div> */}
-      <div className="container mt-16 mx-auto px-4 py-8">
-          <h1 className="text-3xl font-bold mb-8 text-center text-blue-600">Events</h1>
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div className="container pt-28 mx-auto px-4 py-8 bg-slate-100">
+          <h1 className="text-3xl font-bold mb-12 text-center text-orange-600">Events</h1>
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 mb-10 gap-6">
             {events.map(event => (
               <EventCard
                 key={event.id}
