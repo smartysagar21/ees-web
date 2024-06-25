@@ -24,7 +24,7 @@ export default function Navbar() {
   //color on which page is routing
   let { pathname } = useLocation()
   let subpage = pathname.split('/')?.[1]
-  console.log(subpage)
+  // console.log(subpage)
 
   function Linkness(type = null) {
     if (subpage === '') {

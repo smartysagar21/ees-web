@@ -40,6 +40,27 @@ const events = [
   description: 'S Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus reprehenderit accusamus consequuntur officiis nostrum, tempora explicabo doloribus optio eaque unde, omnis tempore velit alias recusandae distinctio quibusdam voluptate! Facere, sint!..',
   image: 'https://media.gettyimages.com/id/864312572/photo/friends-celebrating-new-year-on-the-rooftop.jpg?s=612x612&w=0&k=20&c=yf2Hvb8MtJnQiOrVm9z68X_6l7yK8JG0IxQoQNGRb-s=', 
 },
+{
+     
+  id: 6,
+  title: 'MATLINK',
+  description: 'S Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus reprehenderit accusamus consequuntur officiis nostrum, tempora explicabo doloribus optio eaque unde, omnis tempore velit alias recusandae distinctio quibusdam voluptate! Facere, sint!..',
+  image: 'https://media.gettyimages.com/id/864312572/photo/friends-celebrating-new-year-on-the-rooftop.jpg?s=612x612&w=0&k=20&c=yf2Hvb8MtJnQiOrVm9z68X_6l7yK8JG0IxQoQNGRb-s=', 
+},
+{
+     
+  id: 7,
+  title: 'MATLINK',
+  description: 'S Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus reprehenderit accusamus consequuntur officiis nostrum, tempora explicabo doloribus optio eaque unde, omnis tempore velit alias recusandae distinctio quibusdam voluptate! Facere, sint!..',
+  image: 'https://media.gettyimages.com/id/864312572/photo/friends-celebrating-new-year-on-the-rooftop.jpg?s=612x612&w=0&k=20&c=yf2Hvb8MtJnQiOrVm9z68X_6l7yK8JG0IxQoQNGRb-s=', 
+},
+{
+     
+  id: 8,
+  title: 'MATLINK',
+  description: 'S Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus reprehenderit accusamus consequuntur officiis nostrum, tempora explicabo doloribus optio eaque unde, omnis tempore velit alias recusandae distinctio quibusdam voluptate! Facere, sint!..',
+  image: 'https://media.gettyimages.com/id/864312572/photo/friends-celebrating-new-year-on-the-rooftop.jpg?s=612x612&w=0&k=20&c=yf2Hvb8MtJnQiOrVm9z68X_6l7yK8JG0IxQoQNGRb-s=', 
+},
 
   
 ];

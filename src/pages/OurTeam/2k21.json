@@ -1,0 +1,107 @@
+[
+    {
+        "id": "1",
+        "name": "Indrajeet Kumar",
+        "designation": "President",
+        "img": "/2k21/img1.webp",
+        "linkedin": "wdkwdkwek"
+    },
+    {
+        "id": "2",
+        "name": "Deepanshu Garg",
+        "designation": "Vice-President",
+        "img": "/2k21/img1.webp",
+        "linkedin": "wdkwdkwek"
+    },
+    {
+        "id": "3",
+        "name": "Harsh Tiwary",
+        "designation": "General Secreatary",
+        "img": "/2k21/img1.webp",
+        "linkedin": "wdkwdkwek"
+    },
+    {
+        "id": "4",
+        "name": "Riya Shery",
+        "designation": "Manager",
+        "img": "/2k21/img1.webp",
+        "linkedin": "wdkwdkwek"
+    },
+    {
+        "id": "5",
+        "name": "Aditya Agarwal",
+        "designation": "Treasurer",
+        "img": "/2k21/img1.webp",
+        "linkedin": "wdkwdkwek"
+    },
+    {
+        "id": "6",
+        "name": "Sandeep Kumar",
+        "designation": "Event Head",
+        "img": "/2k21/img1.webp",
+        "linkedin": "wdkwdkwek"
+    },
+    {
+        "id": "7",
+        "name": "Ritik Kumar",
+        "designation": "Event Head",
+        "img": "/2k21/img1.webp",
+        "linkedin": "wdkwdkwek"
+    },
+    {
+        "id": "8",
+        "name": "Gaurav Kumar",
+        "designation": "Event Head",
+        "img": "/2k21/img1.webp",
+        "linkedin": "wdkwdkwek"
+    },
+    {
+        "id": "9",
+        "name": "Samar Raghuvanshi",
+        "designation": "Corporative Affairs",
+        "img": "/2k21/img1.webp",
+        "linkedin": "wdkwdkwek"
+    },
+    {
+        "id": "10",
+        "name": "Tarun Anand",
+        "designation": "Corporative Affairs",
+        "img": "/2k21/img1.webp",
+        "linkedin": "wdkwdkwek"
+    },
+    {
+        "id": "11",
+        "name": "Divyanshu",
+        "designation": "Corporative Affairs",
+        "img": "/2k21/img1.webp",
+        "linkedin": "wdkwdkwek"
+    },
+    {
+        "id": "12",
+        "name": "Abhinav",
+        "designation": "Craetive Head",
+        "img": "/2k21/img1.webp",
+        "linkedin": "wdkwdkwek"
+    },
+    {
+        "id": "13",
+        "name": "Shubham",
+        "designation": "Craetive Head",
+        "img": "/2k21/img1.webp",
+        "linkedin": "wdkwdkwek"
+    },
+    {
+        "id": "14",
+        "name": "Shwet Sagar",
+        "designation": "Web Head",
+        "img": "/2k21/img1.webp",
+        "linkedin": "wdkwdkwek"
+    },
+    {
+        "id": "15",
+        "name": "Shruti",
+        "designation": "Content Head",
+        "img": "/2k21/img1.webp",
+        "linkedin": "wdkwdkwek"
+    }
+]

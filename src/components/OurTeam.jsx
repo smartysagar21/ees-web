@@ -92,7 +92,7 @@ const OurTeam = () => {
                     </motion.div>
                 </div>
                 <div className="w-full my-16 text-center">
-                    <Link to='/ourteam'
+                    <Link to='/team'
                         className=" px-4 py-2 border-2 border-orange-600 rounded-3xl hover:bg-orange-700 hover:text-white">
                         Learn more
                     </Link>

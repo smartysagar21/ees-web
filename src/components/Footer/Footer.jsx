@@ -31,7 +31,7 @@ const Footer = () => {
             <Link to='/gallery'>
               <li className="flex items-center gap-2 cursor-pointer "><BiRightArrowAlt className="text-orange-600 hidden md:block" />Gallery <span className="md:hidden text-xl" >|</span></li>
             </Link>
-            <Link to='/ourteam'>
+            <Link to='/team'>
               <li className="flex items-center gap-2 cursor-pointer "><BiRightArrowAlt className="text-orange-600 hidden md:block" />Our Team <span className="md:hidden text-xl" >|</span></li>
             </Link>
             <Link to='/contact'>

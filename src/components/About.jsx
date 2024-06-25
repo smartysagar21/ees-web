@@ -20,13 +20,13 @@ const variants = {
 
 const About = () => {
     return (
-        <motion.div className='py-16 min-h-[80vh] bg-slate-100 flex flex-col justify-center items-center'
+        <motion.div className=' bg-white flex flex-col justify-center items-center py-20'
           variants={variants}
           initial='initial'
           whileInView='animate'
         >
             <h3 className='text-4xl font-semibold text-orange-600 mb-10'>ABOUT US</h3>
-            <div className='flex w-full flex-col lg:flex-row justify-center items-center px-10 lg:px-20 gap-8 gap-y-14 lg:gap-y-0'>
+            <div className='flex w-full flex-col lg:flex-row justify-center items-center px-5 lg:px-20 gap-8 gap-y-14 lg:gap-y-0'>
                 <motion.div className='lg:w-2/5 lg:text-lg' variants={variants}>
                     <motion.p variants={variants}>Prodex is a workplace for innovation, technology and research
                         driven activists who aspire to shape their ideas into reality.</motion.p>

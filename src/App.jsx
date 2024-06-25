@@ -6,7 +6,7 @@ import {
   Route,
   Routes,
 } from "react-router-dom";
-import { Toaster } from 'react-hot-toast';
+import {Toaster} from 'react-hot-toast';
 
 import Home from './pages/Home';
 import About from './pages/About US/About';
@@ -14,6 +14,7 @@ import SponsorCrausal from './pages/sponser/SponerCrausal';
 import Contact from './pages/Contact/Contact';
 import Gallery from './pages/Gallery/Gallery';
 import Event from './pages/Event/Event';
+import Team from './pages/OurTeam/Team';
 
 function App() {
   const [loading, setloading] = useState(true);
@@ -43,20 +44,19 @@ function App() {
         }
         {
           !loading && (
-            <div className='bg-slate-100'>
-              <Router>
-                {/* <Media/> */}
-                <Routes>
-                  <Route path="/" element={<Home />} />
-                  <Route path="/about" element={<About />} />
-                  <Route path="/sponser" element={<SponsorCrausal />} />
-                  <Route path="/contact" element={<Contact />} />
-                  <Route path="/gallery" element={<Gallery />} />
-                  <Route path="/event" element={<Event />} />
-                </Routes>
-                <Toaster />
-              </Router>
-            </div>
+            <Router>
+              {/* <Media/> */}
+              <Routes>
+                <Route path="/" element={<Home />} />
+                <Route path="/about" element={<About />} />
+                <Route path="/sponser" element={<SponsorCrausal />} />
+                <Route path="/contact" element={<Contact />} />
+                <Route path="/gallery" element={<Gallery />} />
+                <Route path="/event" element={<Event />} />
+                <Route path="/team" element={<Team />} />
+              </Routes>
+              <Toaster/>
+            </Router>
           )
         }
       </div>
