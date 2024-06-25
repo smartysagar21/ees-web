@@ -89,7 +89,7 @@ export default function Navbar() {
           <Link to={'/gallery'} className={Linkness('gallery')}>
             <p className={`lg:text-lg text-base ${subpage === 'home' && hidden == !true ? 'text-white' : 'text-black'}`}>Gallery </p>
           </Link>
-          
+
           <Link to={'/team'} className={Linkness('team')}>
             <p className={`lg:text-lg text-base ${subpage === 'home' && hidden == !true ? 'text-white' : 'text-black'}`}>Our Team </p>
           </Link>
@@ -99,7 +99,9 @@ export default function Navbar() {
           </Link>
         </div>
         <div className='md:flex lg:text-xl text-base hidden items-baseline gap-7 max-sm:justify-end max-sm:flex-1'>
-          <button className={`px-2 py-1 text-base border-2 rounded-full border-orange-600 ${subpage === 'home' && hidden == !true ? 'text-white' : 'text-black'}`} >Sponser Us</button>
+          <Link to='/sponser'>
+            <button className={`px-2 py-1 text-base border-2 rounded-full border-orange-600 hover:bg-orange-700 hover:text-white ${subpage === 'home' && hidden == !true ? 'text-white' : 'text-black'}`} >Sponser Us</button>
+          </Link>
         </div>
 
         {/* mobile view */}
@@ -134,7 +136,9 @@ export default function Navbar() {
               </Link>
             </div>
             <div className='flex lg:text-xl text-xl md:text-base items-baseline gap-7 max-sm:justify-end max-sm:flex-1'>
-              <button>Sponser</button>
+              <Link to='/sponser'>
+                <button className={`px-2 py-1 text-base border-2 rounded-full border-orange-600 hover:bg-orange-700 hover:text-white ${subpage === 'home' && hidden == !true ? 'text-white' : 'text-black'}`} >Sponser Us</button>
+              </Link>
             </div>
           </div>
         </div>
