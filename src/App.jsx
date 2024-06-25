@@ -12,7 +12,6 @@ import Home from './pages/Home';
 import About from './pages/About US/About';
 import SponsorCrausal from './pages/sponser/SponerCrausal';
 import Contact from './pages/Contact/Contact';
-import Gallery from './pages/Gallery/Gallery';
 
 function App() {
   const [loading, setloading] = useState(true);
@@ -49,7 +48,6 @@ function App() {
                 <Route path="/about" element={<About />} />
                 <Route path="/sponser" element={<SponsorCrausal />} />
                 <Route path="/contact" element={<Contact />} />
-                <Route path="/gallery" element={<Gallery />} />
               </Routes>
               <Toaster/>
             </Router>
