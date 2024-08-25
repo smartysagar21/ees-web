@@ -25,9 +25,13 @@ const About = () => {
                     // background: 'linear-gradient(to bottom, rgba(2, 2, 2, 0.633), rgba(2, 2, 2, 0.633))'
                 }}>
                     <h2 className='md:text-5xl text-3xl text-black font-semibold'>About Us</h2>
-                    <p className='text-black md:text-lg md:mt-10 mt-6 md:w-[900px] text-center px-5'>Welcome to Shiddant Decor, where vision meets reality. With a
-                        passion for creating transformative spaces, we specialize in crafting personalized interior designs that seamlessly blend style and functionality.
-                        Our dedicated team of experts is committed to bringing your unique vision to life, turning every space into a reflection of your distinct lifestyle.</p>
+                    <p className='text-black md:text-lg md:mt-10 mt-6 md:w-[900px] text-center px-5'>Welcome to the Electrical Engineering Society (EES) at the National 
+                        Institute of Technology, Jamshedpur, where knowledge meets innovation. Driven by 
+                        a passion for holistic development, we specialize in empowering students with the 
+                        skills and experiences necessary to navigate both academic and real-world technological
+                        landscapes. Our dedicated team is committed to nurturing talent, ensuring that each 
+                        member is well-equipped to excel in the evolving field of electrical engineering.
+                    </p>
                 </div>
                 {/* </div> */}
                 <div className='bg-slate-100 flex flex-col justify-center pb-16 pt-5 px-5'>
